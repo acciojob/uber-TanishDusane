@@ -12,11 +12,11 @@ public class Cab {
     private Integer Id;
 
     private int perKmRate;
-    private boolean avaiable;
+    private boolean available;
 
-    public Cab(int perKmRate, boolean avaiable) {
+    public Cab(int perKmRate, boolean available) {
         this.perKmRate = perKmRate;
-        this.avaiable = avaiable;
+        this.available = available;
     }
 
     public Cab() {
@@ -38,12 +38,12 @@ public class Cab {
         this.perKmRate = perKmRate;
     }
 
-    public boolean isAvaiable() {
-        return avaiable;
+    public boolean isAvailable() {
+        return available;
     }
 
-    public void setAvaiable(boolean avaiable) {
-        this.avaiable = avaiable;
+    public void setAvailable(boolean available) {
+        this.available = available;
     }
 
     public Driver getDriver() {
